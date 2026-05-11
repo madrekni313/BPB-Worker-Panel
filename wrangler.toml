@@ -1,0 +1,12 @@
+name = "v2raypanel"          # نام پروژه خفنت (مثل ShadowFlare)
+main = "dist/worker.js"       # آدرس worker ساخته‌شده (اگر متفاوت بود تغییر بده)
+compatibility_date = "2026-05-11"
+
+# === بخش خیلی مهم برای حل خطا ===
+[assets]
+directory = "./dist"          # یا "./build" — همونی که بعد از build ساخته شده
+binding = "ASSETS"
+
+# اختیاری اما توصیه می‌شه
+[assets.not_found_handling]
+mode = "single-page-application"   # برای SPA پنل
