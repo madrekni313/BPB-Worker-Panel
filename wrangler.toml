@@ -3,6 +3,6 @@ main = "src/worker.ts"
 compatibility_date = "2026-05-11"
 
 [assets]
-directory = "./dist"
+directory = "./src"
 binding = "ASSETS"
 not_found_handling = "single-page-application"
