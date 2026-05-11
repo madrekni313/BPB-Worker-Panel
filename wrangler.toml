@@ -1,8 +1,8 @@
-name = "v2raypanel"          # نام دلخواهت (حتماً تغییر بده)
-main = "src/worker.ts"
+name = "v2raypanel"        # ← این رو عوض کن به نام دلخواه (حروف کوچک، بدون فاصله)
+main = "dist/worker.js"
 compatibility_date = "2026-05-11"
 
 [assets]
-directory = "./src"
+directory = "./dist"
 binding = "ASSETS"
 not_found_handling = "single-page-application"
